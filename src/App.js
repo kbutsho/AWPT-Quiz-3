@@ -6,6 +6,7 @@ import Clients from './Components/Clients/Clients';
 import Counter from './Components/Counter/Counter';
 import Header from './Components/Header/Header';
 import NavBar from './Components/NavBar/NavBar';
+import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
 import Testimonial from './Components/Testimonial/Testimonial';
 
@@ -32,6 +33,7 @@ const App = () => {
         <Services></Services>
         <CallToAction></CallToAction>
         <Testimonial></Testimonial>
+        <Portfolio></Portfolio>
       </main>
     </div>
   );
