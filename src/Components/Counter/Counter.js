@@ -13,7 +13,7 @@ const Counter = () => {
                                 <CountUp
                                     start={0}
                                     end={160}
-                                    duration={3}
+                                    duration={5}
                                     decimals={2} 
                                 />
                             </span>
@@ -25,7 +25,7 @@ const Counter = () => {
                                 <CountUp
                                     start={0}
                                     end={320}
-                                    duration={3}
+                                    duration={5}
                                     decimals={2} 
                                 />
                             </span>
@@ -37,7 +37,7 @@ const Counter = () => {
                                 <CountUp
                                     start={0}
                                     end={520}
-                                    duration={3}
+                                    duration={5}
                                     decimals={2} 
                                 />
                             </span>
@@ -49,7 +49,7 @@ const Counter = () => {
                                 <CountUp
                                     start={0}
                                     end={260}
-                                    duration={3}
+                                    duration={5}
                                     decimals={2} 
                                 />
                             </span>
