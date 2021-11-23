@@ -42,7 +42,7 @@ const Testimonial = () => {
                             <div className="row">
                                 {
                                     data.map(data =>
-                                        <div className="testimonial-item col-4">
+                                        <div className="testimonial-item col-md-4">
                                             <p>
                                                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                                                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
