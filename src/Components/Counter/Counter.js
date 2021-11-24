@@ -1,62 +1,37 @@
 import React from 'react';
-import CountUp from 'react-countup';
+
 
 const Counter = () => {
 
     return (
         <div>
-            <section id="counts" className="counts section-bg">
-                <div className="container">
-                    <div className="row counters">
-                        <div className="col-lg-3 col-6 text-center">
-                            <span className="purecounter">
-                                <CountUp
-                                    start={0}
-                                    end={160}
-                                    duration={5}
-                                    decimals={2} 
-                                />
-                            </span>
+            <section id="counts" class="counts section-bg">
+                <div class="container">
+
+                    <div class="row counters">
+
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Clients</p>
                         </div>
 
-                        <div className="col-lg-3 col-6 text-center">
-                        <span className="purecounter">
-                                <CountUp
-                                    start={0}
-                                    end={320}
-                                    duration={5}
-                                    decimals={2} 
-                                />
-                            </span>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Projects</p>
                         </div>
 
-                        <div className="col-lg-3 col-6 text-center">
-                        <span className="purecounter">
-                                <CountUp
-                                    start={0}
-                                    end={520}
-                                    duration={5}
-                                    decimals={2} 
-                                />
-                            </span>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Hours Of Support</p>
                         </div>
 
-                        <div className="col-lg-3 col-6 text-center">
-                        <span className="purecounter">
-                                <CountUp
-                                    start={0}
-                                    end={260}
-                                    duration={5}
-                                    decimals={2} 
-                                />
-                            </span>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Hard Workers</p>
                         </div>
 
                     </div>
+
                 </div>
             </section>
         </div>

@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(55, 64, 85, 0.9);
 }
 /* modify */
-/* #header.header-transparent {
+#header.header-transparent {
   background: transparent;
-} */
+}
 
 #header.header-scrolled {
   background: rgba(55, 64, 85, 0.9);

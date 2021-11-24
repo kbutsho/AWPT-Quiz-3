@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './App.css'
 import About from './Components/About/About';
@@ -10,6 +11,11 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
 import Team from './Components/Team/Team';
 import Testimonial from './Components/Testimonial/Testimonial';
+import './App.css'
+import Pricing from './Components/Pricing/Pricing';
+import FAQ from './Components/FAQ/FAQ';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 
 const App = () => {
@@ -36,7 +42,14 @@ const App = () => {
         <Testimonial></Testimonial>
         <Portfolio></Portfolio>
         <Team></Team>
+        <Pricing></Pricing>
+        <FAQ></FAQ>
+        <Contact></Contact>
       </main>
+      <section id="footer">
+        <Footer></Footer>
+      </section>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     </div>
   );
 };
